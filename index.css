@@ -1,0 +1,88 @@
+
+
+
+body{
+    background-color: #393E46;
+}
+.Game{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+.GameControl{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    flex: 1 1 120px;
+    max-width: 200px;
+
+}
+.GameBoard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 1%;
+    aspect-ratio: 1;
+    flex: 1 1 300px;
+    max-width: 400px;
+    
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+.btn1{
+    background-color: red;  
+}
+.btn2{
+    background-color: green; 
+}
+.btn3{
+    background-color: blue; 
+}
+.btn4{
+    background-color: yellow; 
+}
+button{
+    background-color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large; 
+    background-color: rgb(151, 52, 52);
+    margin: 2%;
+    
+    
+}
+.level{
+    text-align: center;
+    font-size: 50px;
+    border: solid rgb(151, 52, 52) 10px;
+    color: rgb(72, 117, 113);
+    margin: 2%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(204, 146, 142);
+
+    text-align: center;
+    font-size: 50px;
+    border: solid rgb(151, 52, 52) 10px;
+    color: rgb(72, 117, 113);
+
+}
+
+.SimonBtn{
+    border: solid 10px;
+    border-radius: 30px;
+   
+}
+
+
+
+
